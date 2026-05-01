@@ -5,7 +5,7 @@ function App() {
 
   useEffect(() => {
     // Calling your internal Load Balancer directly
-    fetch('http://internal-app-internal-lb-1610216516.us-east-1.elb.amazonaws.com')
+    fetch('http://44.215.67.63:8000')
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
